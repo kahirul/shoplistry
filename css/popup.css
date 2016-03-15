@@ -1,0 +1,86 @@
+body {
+  font-family: 'Segoe UI', 'Lucida Grande', Tahoma, sans-serif;
+  font-size: 100%;
+  color: #5A5A5A;
+  min-width: 620px;
+  max-width: 620px;
+}
+
+.container span {
+  line-height: 150%;
+}
+
+.head {
+  margin: 15px;
+  margin-bottom: 25px;
+}
+
+.head img {
+  display: inline-block;
+  width: 35px;
+  height: 35px;
+}
+
+.head h1 {
+  font-size: 2rem;
+}
+
+#status {
+  font-size: 16px;
+  display: none;
+}
+
+#hr {
+  display: none;
+}
+
+#action {
+  font-size: 16px;
+  display: none;
+  margin-bottom: 20px;
+}
+
+#action input[type='submit'] {
+  outline: 0;
+}
+
+.variant_id {
+  vertical-align: middle;
+}
+
+.name {
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.unit {
+  font-size: 11px;
+  font-style: italic;
+}
+
+.quantity input {
+  width: 45px;
+  height: 30px;
+  text-align: center;
+}
+
+.body .row {
+  border-bottom: 1px solid #EAEAEA;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.body .row:last-child {
+  border: none;
+}
+
+.product img {
+  background-image: url('../images/grey-logo.png');
+  width: 75px;
+  height: 75px;
+  background-size: 75px 75px;
+}
+
+.waiting img, .waiting h3 {
+  display: inline-block;
+}
