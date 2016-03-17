@@ -1,13 +1,12 @@
 body {
-  font-family: 'Segoe UI', 'Lucida Grande', Tahoma, sans-serif;
+  font-family: ProximaNova, Helvetica, Arial, "Lucida Grande", sans-serif;
   font-size: 100%;
   color: #5A5A5A;
-  min-width: 620px;
-  max-width: 620px;
+  min-width: 480px;
 }
 
 .container span {
-  line-height: 150%;
+  line-height: 1.5;
 }
 
 .head {
@@ -17,12 +16,13 @@ body {
 
 .head img {
   display: inline-block;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
 }
 
 .head h1 {
-  font-size: 2rem;
+  line-height: 1.5;
+  font-size: 1.6rem;
 }
 
 #status {
@@ -49,13 +49,12 @@ body {
 }
 
 .name {
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5;
 }
 
 .unit {
-  font-size: 11px;
-  font-style: italic;
+  font-size: 14px;
 }
 
 .quantity input {
@@ -81,6 +80,6 @@ body {
   background-size: 75px 75px;
 }
 
-.waiting img, .waiting h3 {
-  display: inline-block;
+.how-to ol {
+  font-size: 0.9rem;
 }

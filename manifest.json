@@ -17,5 +17,8 @@
     "contextMenus",
     "http://*/*",
     "https://*/*"
-  ]
+  ],
+  "background": {
+    "page": "background.html"
+  }
 }
